@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'node4.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"node4.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "node4.o" --strict --scatter "node4.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\node4.map" -o "node4.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'node4.axf'
+### ADS-LD Command File: 'node4.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'node4.lnp', Handle=0x00000378
+### Writing '.lnp' file
+### ADS-LD Command file 'node4.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
